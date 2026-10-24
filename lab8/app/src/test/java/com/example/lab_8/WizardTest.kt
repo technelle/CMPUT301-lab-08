@@ -58,6 +58,7 @@ class WizardTest {
 
     @Test
     fun train_ManaNotGreaterThan_or_Equalto_five() {
+        evilWizard.mana = 4
         val initialSpellPower = evilWizard.spellPower
 
         evilWizard.train()
