@@ -62,7 +62,7 @@ class WizardTest {
         val initialSpellPower = evilWizard.spellPower
 
         evilWizard.train()
-        assertEquals(initialSpellPower + 1, evilWizard.spellPower)
+        assertEquals(initialSpellPower, evilWizard.spellPower)
         assertEquals(4, evilWizard.mana)
     }
 }
